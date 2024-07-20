@@ -1,0 +1,39 @@
+ideas = {
+    country = {
+        ALQ_the_allencompassing = {
+            picture = ALQ_the_allencompassing
+            allowed = {
+                tag = ALQ
+            }
+            available = {}
+            cancel = {}
+            allowed_civil_war = {
+                always = no
+            }
+            modifier = {
+                stability_factor = -0.15
+                monthly_population = 0.25
+                gdp_growth_modifier = -0.10
+                trade_opinion_factor = -1
+            }
+        }
+        ALQ_blood_of_martyrs = {
+            picture = ALQ_blood_of_martyrs
+            allowed = {
+                tag = ALQ
+            }
+            available = {}
+            cancel = {}
+            allowed_civil_war = {
+                always = no
+            }
+            modifier = {
+                war_support_factor = 0.25
+                attrition = 0.15
+                offence = 0.15
+                autocracy_drift = 0.01
+                custom_modifier_tooltip = USA_posthuman_tendency_negative
+            }
+        }
+    }
+}

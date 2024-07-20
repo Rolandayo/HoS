@@ -1,0 +1,52 @@
+ideas = {
+    country = {
+        IRA_wind_in_my_heart = {
+            picture = IRA_wind_in_my_heart
+            allowed = {
+                tag = IRA
+            }
+            available = {}
+            cancel = {}
+            allowed_civil_war = {
+                always = no
+            }
+            modifier = {
+                war_support_factor = 0.1
+                army_core_defence_factor = 0.15
+                dig_in_speed_factor = 0.2
+                max_dig_in_factor = 0.2
+                equipment_capture_factor = 0.4
+            }
+        }
+        IRA_friends_out_of_need = {
+            picture = IRA_friends_out_of_need
+            allowed = {
+                tag = IRA
+            }
+            available = {}
+            cancel = {}
+            allowed_civil_war = {
+                always = no
+            }
+            modifier = {
+                stability_factor = -0.15
+                war_support_factor = -0.15
+                production_speed_school_factor = 0.6
+                research_speed_factor = 0.10
+                gdp_growth_modifier = 0.06
+            }
+            targeted_modifier = {
+                tag = JAP
+                extra_trade_to_target_factor = 0.2
+            }
+            targeted_modifier = {
+                tag = FRA
+                extra_trade_to_target_factor = 0.25
+            }
+            targeted_modifier = {
+                tag = USA
+                extra_trade_to_target_factor = 0.1
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+ideas = {
+	country = {
+			IRQ_circlejerk_war = {
+			picture = iraq_circlejerk_war
+			allowed = {
+				tag = IRQ
+				tag = IRA
+				tag = KUR
+				tag = TRM
+				tag = ALQ
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			surrender_limit = -0.3
+            offence = 0.15
+            defence = 0.15
+			}
+		}
+	}	
+}

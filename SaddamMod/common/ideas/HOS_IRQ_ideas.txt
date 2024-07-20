@@ -1,0 +1,38 @@
+ideas = {
+    country = {
+        IRQ_sins_of_the_son = {
+            picture = IRQ_sinsoftheson
+            allowed = {
+                tag = IRQ
+            }
+            available = {}
+            cancel = {}
+            allowed_civil_war = {
+                always = no
+            }
+            modifier = {
+                gdp_growth_modifier = -0.06
+                political_power_gain = -0.1     
+                research_speed_factor = 0.09
+                stability_factor = -0.15
+            }
+        }
+        IRQ_the_legitimate_government = {
+            picture = IRQ_thelegitimategovernment
+            allowed = {
+                tag = IRQ
+            }
+            available = {}
+            cancel = {}
+            allowed_civil_war = {
+                always = no
+            }
+            modifier = {
+                production_oil_factor = 0.55
+                consumer_goods_factor = 0.22
+                gdp_growth_modifier = 0.025
+                trade_opinion_factor = 0.25
+            }
+        }
+    }
+}

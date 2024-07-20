@@ -1,0 +1,47 @@
+ideas = {
+    country = {
+        TRM_turkish_military_oversight = {
+            picture = TRM_turkish_military_oversight
+            allowed = {
+                tag = TRM
+            }
+            available = {}
+            cancel = {}
+            allowed_civil_war = {
+                always = no
+            }
+            modifier = {
+                stability_factor = -0.15
+                war_support_factor = -0.25
+                gdp_growth_modifier = 0.36
+                production_speed_buildings_factor = 0.15
+            }
+            targeted_modifier = {
+                tag = TUR
+                extra_trade_to_target_factor = 0.77
+            }
+        }
+        TRM_ragtag_paramilitaries = {
+            picture = TRM_ragtag_paramilitaries
+            allowed = {
+                tag = TRM
+            }
+            available = {}
+            cancel = {}
+            allowed_civil_war = {
+                always = no
+            }
+            modifier = {
+                conscription_factor = 0.25
+                command_power_gain = -0.20
+                conservatism_drift = 0.04
+                liberalism_drift = 0.04
+                socdem_drift = 0.04
+                dissident_right_drift = 0.04
+                revolutionary_right_drift = 0.04
+                reformist_socialism_drift = 0.04
+            }
+        }
+    }
+}
+

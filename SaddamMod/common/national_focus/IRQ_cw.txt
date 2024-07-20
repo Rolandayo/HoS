@@ -1,0 +1,658 @@
+focus_tree = {
+	id = IRQ_cw
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = IRQ
+		}
+	}
+
+	focus = {
+		id = IRQ_rattling_sabers
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		x = 6
+		y = 0
+		cost = 5
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IRQ_tale_of_the_lions
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_rattling_sabers
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = IRQ_rattling_sabers
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = IRQ_their_guns_our_brawn
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_rattling_sabers
+		x = 0
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = IRQ_tale_of_the_lions
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = IRQ_the_legendary_spetnaz
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_rattling_sabers
+		x = 0
+		y = 3
+		cost = 5
+		prerequisite = {
+			focus = IRQ_their_guns_our_brawn
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_warfare_of_tommorow
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_rattling_sabers
+		x = -3
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = IRQ_rattling_sabers
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_lasers_over_babylon
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_warfare_of_tommorow
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = IRQ_warfare_of_tommorow
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_let_there_be_superman
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_warfare_of_tommorow
+		x = 0
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = IRQ_lasers_over_babylon
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_means_of_today
+		icon = GFX_prepare_for_the_worst
+		relative_position_id = IRQ_rattling_sabers
+		x = 3
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = IRQ_rattling_sabers
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_bring_back_the_populars
+		icon = GFX_SEY_a_popular_army
+		relative_position_id = IRQ_means_of_today
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = IRQ_means_of_today
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_real_superheroes
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_means_of_today
+		x = 0
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = IRQ_means_of_today
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_zabibah_calling
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_the_legendary_spetnaz
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = IRQ_let_there_be_superman
+		}
+		prerequisite = {
+			focus = IRQ_the_legendary_spetnaz
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_our_invincible_army
+		icon = GFX_prepare_the_men
+		relative_position_id = IRQ_the_legendary_spetnaz
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = IRQ_the_legendary_spetnaz
+		}
+		prerequisite = {
+			focus = IRQ_real_superheroes
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_this_is_how_it_begins
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_the_legendary_spetnaz
+		x = 0
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = IRQ_zabibah_calling
+		}
+		prerequisite = {
+			focus = IRQ_our_invincible_army
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = IRQ_an_end_to_struggle
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		x = 15
+		y = 5
+		cost = 5
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = IRQ_the_northern_anarchy
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		x = 25
+		y = 0
+		cost = 5
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IRQ_istanbuls_dogs
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_the_northern_anarchy
+		x = -3
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = IRQ_the_northern_anarchy
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_samarra_bulwark
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_istanbuls_dogs
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = IRQ_istanbuls_dogs
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_men_behind_lines
+		icon = GFX_BIU_the_wolves_among_sheep
+		relative_position_id = IRQ_istanbuls_dogs
+		x = 0
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = IRQ_samarra_bulwark
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_break_sword_patch_hilt
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_istanbuls_dogs
+		x = 0
+		y = 3
+		cost = 5
+		prerequisite = {
+			focus = IRQ_men_behind_lines
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_kurdish_rats
+		icon = GFX_SEY_the_anticommunist_sword
+		relative_position_id = IRQ_the_northern_anarchy
+		x = 4
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = IRQ_the_northern_anarchy
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_qussay_proposal
+		icon = GFX_rub_alcohol_on_the_wound
+		relative_position_id = IRQ_kurdish_rats
+		x = -2
+		y = 1
+		cost = 5
+		mutually_exclusive = { focus = IRQ_ol_reliable }
+		prerequisite = {
+			focus = IRQ_kurdish_rats
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_draw_them_out
+		icon = GFX_SEY_the_middle_road
+		relative_position_id = IRQ_qussay_proposal
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = IRQ_qussay_proposal
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_napalm_sticks_to_kids
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_qussay_proposal
+		x = 0
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = IRQ_draw_them_out
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_ol_reliable
+		icon = GFX_BIU_biological_warfare
+		relative_position_id = IRQ_kurdish_rats
+		x = 2
+		y = 1
+		cost = 5
+		mutually_exclusive = { focus = IRQ_qussay_proposal }
+		prerequisite = {
+			focus = IRQ_kurdish_rats
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_draw_them_in
+		icon = GFX_wipe_out_terrorists
+		relative_position_id = IRQ_ol_reliable
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = IRQ_ol_reliable
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_a_storm_of_rifles
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_ol_reliable
+		x = 0
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = IRQ_draw_them_in
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = IRQ_fedayeen_in_kirkuk
+		icon = GFX_SAF_send_in_dogs
+		relative_position_id = IRQ_kurdish_rats
+		x = 0
+		y = 4
+		cost = 5
+		prerequisite = {
+			focus = IRQ_napalm_sticks_to_kids
+			focus = IRQ_a_storm_of_rifles
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = IRQ_the_crumbling_south
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		x = 25
+		y = 6
+		cost = 5
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IRQ_towelheads_to_our_left
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_the_crumbling_south
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = IRQ_the_crumbling_south
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IRQ_the_loyal_muslims
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_towelheads_to_our_left
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = IRQ_towelheads_to_our_left
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IRQ_western_pigs_at_the_right
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_the_crumbling_south
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = IRQ_the_crumbling_south
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IRQ_the_art_of_open_engagement
+		icon = GFX_SEY_put_into_practice
+		relative_position_id = IRQ_western_pigs_at_the_right
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = IRQ_western_pigs_at_the_right
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IRQ_fortify_baghdad
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_the_crumbling_south
+		x = 0
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = IRQ_towelheads_to_our_left
+		}
+		prerequisite = {
+			focus = IRQ_western_pigs_at_the_right
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IRQ_the_city_that_shall_never_fall
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_towelheads_to_our_left
+		x = 0
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = IRQ_the_loyal_muslims
+		}
+		prerequisite = {
+			focus = IRQ_fortify_baghdad
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IRQ_rushing_nasiriya
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_western_pigs_at_the_right
+		x = 0
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = IRQ_the_art_of_open_engagement
+		}
+		prerequisite = {
+			focus = IRQ_fortify_baghdad
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IRQ_we_are_iraq
+		icon = GFX_AWB_Sarie_Marais_Calls_For_Me
+		relative_position_id = IRQ_the_crumbling_south
+		x = 0
+		y = 4
+		cost = 5
+		prerequisite = {
+			focus = IRQ_the_city_that_shall_never_fall
+		}
+		prerequisite = {
+			focus = IRQ_rushing_nasiriya
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+}

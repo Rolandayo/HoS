@@ -1,0 +1,40 @@
+ideas = {
+    country = {
+        KUR_kurd_ethnic_dominance = {
+            picture = KUR_kurd_ethnic_dominance
+            allowed = {
+                tag = KUR
+            }
+            available = {}
+            cancel = {}
+            allowed_civil_war = {
+                always = no
+            }
+            modifier = {
+                hardline_socialism_drift = 0.1
+                reformist_socialism_drift = 0.1
+                stability_factor = -0.15
+                war_support_factor = -0.1
+                drift_defence_factor = 0.2
+                supply_combat_penalties_on_core_factor = 0.5
+            }
+        }
+        KUR_theopolitical_clash = {
+            picture = KUR_theopolitical_clash
+            allowed = {
+                tag = KUR
+            }
+            available = {}
+            cancel = {}
+            allowed_civil_war = {
+                always = no
+            }
+            modifier = {
+                conscription = -0.01
+                research_speed_factor = -0.09
+                political_power_gain = -0.1
+                custom_modifier_tooltip = USA_posthuman_tendency_negative
+            }
+        }
+    }
+}
